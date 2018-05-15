@@ -1,6 +1,6 @@
 const BLEConfigs = require('./configs').BLE;
-const initBLE = require('./src').mario.initBLE;
-const readDTH = require('helpers').sensors.dth;
+const initBLE = require('./src').initBLE;
+const readDTH = require('./src').sensors.dth;
 
 initBLE({
   configs: BLEConfigs,

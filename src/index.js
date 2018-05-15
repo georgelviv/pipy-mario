@@ -17,5 +17,6 @@ const initBLE = ({ configs, getReadData }) => {
 
 
 module.exports = {
-  initBLE: initBLE
+  initBLE: initBLE,
+  sensors: require('./sensors')
 };

@@ -25,7 +25,8 @@ class BLECharacteristic {
     })
   }
 
-  convertDataToMsg({data, type}) {
+  convertDataToMsg(msg) {
+    const {data, type} = msg;
     return {
       data,
       type,

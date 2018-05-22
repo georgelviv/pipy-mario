@@ -40,7 +40,6 @@ class MushroomSend {
 
   getMsg() {
     return JSON.stringify({
-      date: new Date(),
       type: this.type,
       data: this.data
     });
